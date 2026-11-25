@@ -1,0 +1,42 @@
+@font-face {
+    font-family: TF-Build;
+    src: url(assets/tf2build.ttf);
+}
+@font-face {
+    font-family: Concolas;
+    src: url(assets/consolas.ttf);
+}
+@font-face {
+    font-family: ScienceGothic;
+    src: url(assets/ScienceGothic-VariableFont_CTRS\,slnt\,wdth\,wght.ttf);
+}
+@font-face {
+    font-family: Oswald;
+    src: url(assets/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Nunito;
+    src: url(assets/Nunito-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: BlackOps;
+    src: url(assets/BlackOpsOne-Regular.ttf);
+}
+
+/* === */
+
+#hdrTitle{
+    font-family: BlackOps;
+}
+a{
+    font-family: Oswald;
+}
+.price{
+    font-family: ScienceGothic;
+}
+.title-2{
+    font-family: BlackOps;
+}
+p{
+    font-family: Concolas;
+}
