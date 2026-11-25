@@ -1,0 +1,188 @@
+@font-face {
+    font-family: tfBuild;
+    src: url(assets/tf2build.ttf);
+}
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    font-family: tfBuild;
+    color: #f5e7de;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav a {
+    transition: color 0.3s, text-shadow 0.3s;
+}
+nav a.active {
+    color: rgb(204, 122, 26);
+    text-decoration: underline;
+    /* text-shadow: 0 0 10px rgb(204, 122, 26); */
+}
+a{
+    text-decoration: none;
+}
+section{
+    background-color: #32302f;
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+}
+.borderLine{
+    z-index: 9998;
+    height: 50px;
+    width: 100%;
+    background-color: #1a1817;
+}
+.focusText{
+    background-color: rgb(245, 233, 208);
+    border: 5px solid rgb(55, 49, 42);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    z-index: 9998;
+    top: 40%;
+}
+.fLinks{
+    text-decoration: none;
+    margin: 0px 10px 0px;
+}
+.text-1{
+    color: rgb(42, 36, 36);
+}
+nav{
+    right: 200px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0px 10px;
+}
+header>*{
+    margin: 0;
+}
+header{
+    z-index: 9999;
+    padding: 10px 30px 10px;
+    background-color: #32302f;
+    box-shadow: 0px 13px 15px 0px rgba(0, 0, 0, 0.55);
+    -webkit-box-shadow: 0px 13px 15px 0px rgba(0, 0, 0, 0.55);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.buyButton{
+    display: inline-block;
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    background-color: #34302d;
+    color: #f5e7de;
+    transition: color 0.3s;
+}
+.buyButton:hover{
+    color: rgb(204, 122, 26);
+}
+.buyButton:active{
+    text-decoration: underline;
+}
+.price{
+    margin: 20px 0px 10px;
+    color: rgb(102, 255, 102);
+    font-size: 40px;
+}
+.background-image{
+    position: absolute;
+    z-index: 1;
+    background: url(https://portscaner.ru/Files/Wallpaper/1680x1050/5fc4ec047cd64.jpg);
+    background-size: cover;
+    /* filter: blur(3px); */
+    width: 100%;
+    height: 100vh;
+}
+.title-2{
+    margin-bottom: 15px;
+    color: rgb(42, 36, 36);
+    width: fit-content;
+    display: inline-block;
+}
+.coursesCard{
+    background-color: rgb(245, 233, 208);
+    padding: 10px;
+    /* background-color: gray; */
+    border: 3px solid #34302d;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 430px;
+}
+.coursesCard>img{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.infoCards{
+    width: 60%;
+    /* height: 20%; */
+}
+.infoCards>h2{
+    transition: color 0.3s;
+}
+.iC-left{
+    text-align: left;
+    margin-left: 0px;
+}
+.iC-right{
+    text-align: right;
+    margin-right: 0px;
+}
+
+/* === */
+
+
+#hdrTitle{
+    display: inline-block;
+}
+#frontPage{
+    display: flex;
+    justify-content: center;
+}
+#text-fPage{
+    width: 600px;
+    color: rgb(42, 36, 36);
+}
+#buyCourses{
+    padding: 150px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#info-html>h2{
+    color:rgb(227, 121, 40);
+}
+#info-html>h2:hover{
+    text-shadow: 0 0 10px rgb(227, 121, 40);
+}
+#info-css>h2{
+    color: rgb(81, 154, 186);
+}
+#info-css>h2:hover{
+    text-shadow: 0 0 10px rgb(81, 154, 186);
+}
+#info-JS>h2{
+    color: rgb(193, 203, 65);
+}
+#info-JS>h2:hover{
+    text-shadow: 0 0 10px rgb(193, 203, 65);
+}
+#info-backend>h2{
+    color: #bd3b3b;
+}
+#info-backend>h2:hover{
+    text-shadow: 0 0 10px #bd3b3b;
+}
+#languages{
+    padding: 100px 0px 0px;
+}
